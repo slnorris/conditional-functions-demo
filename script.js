@@ -133,14 +133,23 @@
 // //sport = "football"; //Uncaught TypeError: Assignment to constant variable
 // console.log(sport);
 
-function doubleNumber() {
-  let doublerElement = document.getElementById("doubler-p");
-  let doublerTextContent = doublerElement.innerHTML;
-  doublerElement.innerHTML = doublerTextContent * 2
+// a function called yell, that takes a string parameter and returns a capitalized version of that string
+
+function yell(text) {
+  let yelling = text.toUpperCase() + "!!!!";
+  return yelling;
 }
 
-function clearNumber () {
-    let doublerElement = document.getElementById("doubler-p");
-    doublerElement.innerHTML = '3';
-}
+console.log(yell("get your lab assignments done please"));
+
+//scope
+
+//global scope
+// variables declared in the global scope, you can access anywhere in any line of code
+// you know something is in the global scope if something is all the way to the left of your code, even after formatting
+
+//block scope
+// variables declared in block scope (a code in block) can only be accessed in that code block
+// a block of code is between curly braces usually
+
 
