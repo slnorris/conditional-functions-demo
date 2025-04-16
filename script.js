@@ -135,12 +135,12 @@
 
 // a function called yell, that takes a string parameter and returns a capitalized version of that string
 
-function yell(text) {
-  let yelling = text.toUpperCase() + "!!!!";
-  return yelling;
-}
+// function yell(text) {
+//   let yelling = text.toUpperCase() + "!!!!";
+//   return yelling;
+// }
 
-console.log(yell("get your lab assignments done please"));
+// console.log(yell("get your lab assignments done please"));
 
 //scope
 
